@@ -1,0 +1,24 @@
+﻿[AFXW]
+CFG=ON
+
+[EXT_NORMAL]
+DSENT="&EXCD -O"$P\$F\""
+
+[KEY_DEF]
+KEY_36="&CD D:\MyPrograms\dx11_template\"
+KEY_44="&CD D:\download\"
+
+[REG_DIR]
+PRT_00="C"
+DIR_00=C:\
+PRT_01="D"
+DIR_01=D:\
+PRT_02="E"
+DIR_02=E:\
+PRT_03="Dropbox"
+DIR_03=D:\Dropbox\
+PRT_04="Desktop"
+DIR_04=C:\Users\ORE\Desktop\
+PRT_05="HOME"
+DIR_05=C:\Users\ORE\
+

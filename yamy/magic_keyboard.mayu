@@ -1,0 +1,146 @@
+include "dot.mayu"
+
+#Macintosh Keyboard Define
+def key Mac英数 = 0x71
+def key Macかな = 0x72
+
+#変換
+#key U-Mac英数 = D-半角/全角 U-半角/全角
+#key U-Macかな = D-変換 U-変換
+
+#key U-Mac英数 = D-LWIN
+
+#Insert
+def key F13 = 0x64
+key F13 = Insert
+
+#キーリピート有 One Shot (!!!) のキーリピートが始まるまでの時間を指定
+def option delay-of !!! = 30 
+
+#キーリピート速度調整
+#この設定に加え、コンパネ＞キーボード＞表示までの待ち時間 で最大まで短く設定するとかなり早くなる
+#def option KeyboardDelay = enable 100 20
+#def option KeyboardDelay = disable 1000 500
+
+keymap Global
+
+#mac→min
+
+#mod windows += LeftAlt
+#mod windows -= LeftWindows
+#key *LeftWindows	= *LeftAlt
+#mod alt		+= LeftWindows
+#mod alt		-= LeftAlt
+#key *LeftAlt = *LeftWindows
+#mod control += 英数
+#mod control -= LeftControl
+#key *英数			= *LeftControl
+#key *LeftControl	= *英数
+
+#mod control += Right
+#key *Right	= RightControl
+#mod alt += Left
+#key *Left	= RightAlt
+
+#one shot modifire
+mod mod0         += !!!Space
+key M0-*J         = *Down
+key M0-*K         = *Up
+key M0-*H         = *Left
+key M0-*L         = *Right
+#key M0-*M         = *Left
+
+#key M0-*D         = *Home
+#key M0-*F         = *End
+##key M0-*M         = *End
+##key M0-*Comma     = *Home
+#key M0-*U         = *PageDown
+#key M0-*I         = *PageUp
+key M0-*F         = *Home
+key M0-*G         = *End
+key M0-*D         = *PageDown
+key M0-*U         = *PageUp
+
+key M0-*O         = *BackSpace
+key M0-*P         = *Delete
+key M0-*Q         = *Esc
+key M0-*Semicolon = *Enter
+key M0-*V         = *Pause
+
+#key M0-*W         = *F2
+#key M0-*E         = *F3
+#key M0-*R         = *F4
+#key M0-*T         = *F5
+#key M0-*Y         = *F6
+#key M0-*CommercialAt = *F9
+key M0-*LeftSquareBracket = *F12
+
+key M0-*_1         = *F1
+key M0-*_2         = *F2
+key M0-*_3         = *F3
+key M0-*_4         = *F4
+key M0-*_5         = *F5
+key M0-*_6         = *F6
+key M0-*_7         = *F7
+key M0-*_8         = *F8
+key M0-*_9         = *F9
+key M0-*_0         = *F10
+key M0-*HyphenMinus = *F11
+key M0-*CircumflexAccent = *F12
+
+#ウィンドウ移動
+mod mod1           += Z
+key M0-*Z          = *RightWindows
+key M0-M1-*H       = W-*Left
+key M0-M1-*J       = W-*Down
+key M0-M1-*K       = W-*Up
+key M0-M1-*L       = W-*Right
+
+#CapsLockでウィンドウ移動
+#mod mod2           += 英数
+#key M2-H           = W-Left
+#key M2-J           = W-Down
+#key M2-K           = W-Up
+#key M2-L           = W-Right
+
+#CapsLockを便利ソフトのホットキーにする
+key 英数           = C-S-K
+key M0-英数        = C-S-J
+
+#Escをウィンドウ閉じるボタンにする
+key Esc            = A-F4
+
+#十字キー変更
+mod alt            += Left
+key *Left          = *RightAlt
+mod control        += Right
+key *Right         = *RightControl
+key Down            = Applications
+
+# fenrirウィンドウのみ有効なキー
+# 普通にESCを押して閉じると次回起動時におかしくなるため、起動ボタンで閉じる
+window fenrir /fenrir\.exe/ : Global
+
+#のどかではkeyswapでキーバインドを変更する前のキーを指定する必要がある。
+#key Esc           = A-S-L
+#key M0-*Q          = A-S-L
+
+key Esc           = C-S-L
+key M0-*Q          = C-S-L
+
+window madokae /madokae\.exe/ : Global
+key M0-*Q          = C-S-K
+
+
+#対応予定
+# \マークが打てない
+# capslock+hjklでウィンドウ移動(できるけどIMEがトグルされてしまう）
+
+#//////////////////////////////////////////////////
+#visual studio
+window devenv /devenv\.exe/ : Global
+
+# vsvimがインサート解除時にIMEOffにしてくれないので対応
+# IL: IME on
+#key IL-*ESC = $ToggleIME Esc
+key M0-*Q = &SetImeStatus(off) Esc

@@ -1,0 +1,30 @@
+afx TortoiseSVN
+"A.追加"		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:add /path:"$QN$J*$MF" /notempfile
+"D.削除" 		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:remove /path:"$QN$J*$MF" /notempfile
+"C.コミット" 		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:commit /path:"$QN$J*$MF" /notempfile
+"N.コミット(dir)"	"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:commit /path:"$P" /notempfile
+"L.ログ表示" 		&each "C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:log /path:"$P\$F" /notempfile
+"H.ログ表示(dir)" 	"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:log /path:"$P" /notempfile
+"P.属性"		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:properties /path:"$P\$F" /notempfile
+"R.リネーム" 		&each "C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:rename /path:"$P\$F" /notempfile
+"F.ステータス" 		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:repostatus /path:"$P" /notempfile
+"U.更新" 		&each "C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:update /path:"$P\$F" /notempfile
+"I.更新(dir)"		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:update /path:"$P" /notempfile
+"V.元に戻す" 		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:revert /path:"$QN$J*$MF" /notempfile
+"W.元に戻す(dir)" 	"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:revert /path:"$P" /notempfile
+
+; 以下変更前
+; パス、先頭キー等は適当に変更するべし
+;"A.追加"		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:add /path:"$QN$J*$MF" /notempfile
+;"C.コピー"		&each "C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:copy /path:"$P\$F" /notempfile
+;"D.削除" 		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:remove /path:"$QN$J*$MF" /notempfile
+;"M.コミット" 		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:commit /path:"$QN$J*$MF" /notempfile
+;"N.コミット(dir)"	"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:commit /path:"$P" /notempfile
+;"G.ログ表示" 		&each "C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:log /path:"$P\$F" /notempfile
+;"H.ログ表示(dir)" 	"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:log /path:"$P" /notempfile
+;"P.属性"		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:properties /path:"$P\$F" /notempfile
+;"R.リネーム" 		&each "C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:rename /path:"$P\$F" /notempfile
+;"S.ステータス" 		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:repostatus /path:"$P" /notempfile
+;"U.更新(dir)"		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:update /path:"$P" /notempfile
+;"V.元に戻す" 		"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:revert /path:"$QN$J*$MF" /notempfile
+;"W.元に戻す(dir)" 	"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:revert /path:"$P" /notempfile

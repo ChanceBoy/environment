@@ -1,0 +1,68 @@
+include "dot.mayu"
+
+#Macintosh Keyboard Define
+#def key Mac英数 = 0x71
+#def key Macかな = 0x72
+
+#変換
+#key U-Mac英数 = D-半角/全角 U-半角/全角
+#key U-Macかな = D-変換 U-変換
+
+#key U-Mac英数 = D-LWIN
+
+#矢印キー
+#key W-*h = ~W-*Left
+#key W-*j = ~W-*Down
+#key W-*k = ~W-*Up
+#key W-*L = ~W-*Right
+
+# Windows10のWin キー + Space による入力言語の切り替えを無効にする
+key W-*Space      = &Ignore
+
+#キーリピート有 One Shot (!!!) のキーリピートが始まるまでの時間を指定
+def option delay-of !!! = 20
+
+keymap Global
+
+mod mod0         += !!!Space
+key M0-*J         = *Down
+key M0-*K         = *Up
+key M0-*H         = *Left
+key M0-*L         = *Right
+
+key M0-*D         = *Home
+key M0-*F         = *End
+key M0-*U         = *PageDown
+key M0-*I         = *PageUp
+
+key M0-*O         = *BackSpace
+key M0-*P         = *Delete
+key M0-*Semicolon = *Enter
+key M0-*Q         = *Esc
+key M0-*ReverseSolidus    = *Applications
+key M0-*W         = *F2
+key M0-*R         = *F4
+key M0-*E         = *F3
+key M0-*T         = *F5
+key M0-*CommercialAt      = *F9
+key M0-*LeftSquareBracket = *F12
+
+#ウィンドウ移動系
+#key M0-W-*G       = W-Down
+#key M0-W-*H       = W-Up
+#key W-*F       = W-Left
+#key W-*J       = W-Right
+
+#key M0-*A         = &WindowMoveTo(NW, 0, 0) &WindowResizeTo(960, 1160)
+#key M0-*S         = &WindowMoveTo(NE, 0, 0) &WindowResizeTo(960, 1160)
+#key M0-*Z         = &WindowMonitorTo(current , 1)
+
+#外部アプリ実行テスト
+#key C-S-L         = &ShellExecute("open", "C:\\Programs\\fenrir075c\\fenrir.exe", "/t",, ShowNormal)
+#key C-S-K         = &ShellExecute("open", "D:\\Programs\\afxw\\AFXW.EXE", "-s",, ShowNormal)
+
+# fenrirウィンドウのみ有効なキー
+# 普通にESCを押して閉じると次回起動時におかしくなるため、起動ボタンで閉じる
+window fenrir /fenrir\.exe/ : Global
+key Esc           = C-S-L
+key M0-*Q         = C-S-L

@@ -1,0 +1,125 @@
+﻿[AFXW]
+VER=1.58
+
+[MSK]
+00="*.mp3"
+01="*.mp4"
+02="*.meta"
+03="*.exe"
+04="hlsl"
+05="*hlsl"
+06="*avi*"
+07="*dll*"
+
+[COM]
+00=""D:\Programs\afxw\afxtools\bin\afxfazzy.exe""
+01="D:\Programs\afxw\FFC\FFC.exe "D:\download\Script (3)" /to:"D:\Programs\afxw" /copy"
+02="D:\Programs\afxw\FFC\FFC.exe "D:\Programs\afxw\Script (3)\Script" /to:"D:\Programs\afxw" /move"
+03="TortoiseProc.exe /command:commit /path:"D:\Programs\afxw\Script" /notempfile"
+04="D:\Programs\fenrir\fenrir.exe /dir="D:\Programs\afxw""
+05="D:\Programs\fenrir\fenrir.exe /dir="D:\Programs""
+06="D:\Programs\fenrir\fenrir.exe /dir="D:\MyPrograms\work""
+07="D:\Programs\fenrir\fenrir.exe /dir="D:\MyPrograms""
+08="D:\Programs\fenrir\fenrir.exe /dir="D:\MyPrograms\Samples""
+09="E:\Program Files\Everything\Everything.exe -p "D:\MyPrograms""
+10="D:\Programs\afxw\FFC\FFC.exe "C:\Users\ORE\Desktop\Visibility_Buffer_GDCE.pdf" /to:"D:\MyPrograms\資料" /move"
+11="D:\Programs\afxw\FFC\FFC.exe "D:\download\PracticalClusteredShading.ppt" "D:\download\TemporalAA.pptx" /to:"D:\MyPrograms\資料" /move"
+12="D:\Programs\afxw\wscript.exe D:\Programs\afxw\script\MakeNewFile.js "D:\work""""
+13="D:\Programs\fenrir\fenrir.exe /dir="D:\work""
+14="E:\Program Files\Everything\Everything.exe -p "D:""
+15="D:\Programs\fenrir\fenrir.exe /dir="D:""
+
+[DIR]
+00=D:\MyPrograms\PortfolioWorking\Programs\DemoScene\Capture\
+01=D:\MyPrograms\PortfolioWorking\Programs\DemoScene\
+02=D:\MyPrograms\PortfolioWorking\Programs\
+03=D:\MyPrograms\dx11_template\work\実行環境\
+04=D:\MyPrograms\dx11_template\work\capture\
+05=D:\MyPrograms\dx11_template\Release\
+06=D:\MyPrograms\dx11_template\Debug\
+07=D:\MyPrograms\dx11_template\work\
+08=D:\music\貰い物\
+09=D:\music\ゲーム\
+10=D:\music\
+11=D:\music\アニメ\貰い物4\
+12=D:\music\アニメ\
+13=D:\music\アニメ\貰い物2\
+14=D:\Shortcuts\
+15=D:\MyPrograms\dx11_template\
+16=D:\MyPrograms\LuaProject\
+17=D:\Programs\afxw\Script (3)\
+18=D:\Programs\afxw\
+19=C:\Users\ORE\Desktop\
+20=D:\download\
+21=D:\MyPrograms\PortfolioWorking\Documents\
+22=D:\MyPrograms\PortfolioWorking\
+23=D:\MyPrograms\
+24=D:\work\
+25=D:\Programs\fenrir\
+26=D:\Programs\
+27=D:\picture\Phone\iPhone6\
+28=D:\picture\Phone\
+29=D:\picture\
+30=D:\
+31=D:\Mobile\iPhoneBackUp\45af2a85aed791c5100bdb03d7019a8013e0e5f4-20150321-031733\
+32=D:\Mobile\iPhoneBackUp\050610a810aee2ae50044b6d599caa386c5461c2\
+33=D:\Mobile\iPhoneBackUp\
+34=D:\Mobile\
+35=D:\Mobile\2017-03-14\
+
+[DIRR]
+00=D:\download\Portfolio\Portfolio\Programs\DemoScene\Build\Release\
+01=D:\download\Portfolio\Portfolio\Programs\DemoScene\Build\Debug\
+02=D:\download\Portfolio\Portfolio\Programs\DemoScene\Capture\wmv\
+03=D:\download\Portfolio\Portfolio\Programs\DemoScene\Build\
+04=D:\download\Portfolio\Portfolio\Programs\DemoScene\Capture\img\
+05=D:\download\Portfolio\Portfolio\Programs\DemoScene\Capture\
+06=D:\download\Portfolio\Portfolio\Programs\DemoScene\Project\
+07=D:\download\Portfolio\Portfolio\Programs\DemoScene\
+08=D:\download\Portfolio\Portfolio\Programs\学生時代作品\その他作品（おまけ）\
+09=D:\download\Portfolio\Portfolio\Programs\学生時代作品\就職作品\キャプチャ\
+10=D:\download\Portfolio\Portfolio\Programs\学生時代作品\就職作品\実行環境\
+11=D:\download\Portfolio\Portfolio\Programs\学生時代作品\就職作品\
+12=D:\download\Portfolio\Portfolio\Programs\学生時代作品\
+13=D:\download\Portfolio\Portfolio\Programs\
+14=D:\download\
+15=D:\download\Portfolio\
+16=D:\download\Portfolio\Portfolio\
+17=D:\download\Portfolio\Portfolio\Documents\
+18=D:\Shortcuts\
+19=D:\Skype_Log\超絶☆ダイナミック!\
+20=D:\Skype_Log\
+21=D:\Programs\ggtranslate\
+22=D:\Programs\fenrir\docs\
+23=D:\Programs\fenrir\cmd\
+24=D:\Programs\fenrir\data\
+25=D:\Programs\fenrir\
+26=D:\Programs\afxw\Script (3)\
+27=D:\Programs\afxw\Script\
+28=D:\Programs\
+29=D:\MyPrograms\PortfolioWorking\
+30=D:\MyPrograms\work\
+31=D:\MyPrograms\Samples\
+32=D:\
+33=D:\MyPrograms\
+34=D:\MyPrograms\資料\
+35=D:\Programs\afxw\
+
+[QPATH]
+00=c:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include
+01=C:\Users\ORE\
+02=D:\MyPrograms\dx11_template\work\shaders\Explorer.exe \e, ::\{645FF040-5081-101B-9F08-00AA002F954E}
+03=D:\music
+04=D:\Programs\fenrir\docs\
+05=D:\Movie\download
+06=C:\Program Files\Autodesk\FBX\FBX SDK\2015.1\lib\vs2013\x86\debug
+07=D:\MyPrograms\dx11_template\work\
+08=D:\Programs\
+09=C:\Users\ORE\Videos\LoiLo Game Recorder
+10=D:\Programs\XMediaRecode3358\output
+11=C:\Users\ORE\Documents\AmuseGraphics\
+12=D:\My Dropbox\Dropbox
+13=D:\MyPrograms\Syukatu\download\
+14=D:\Skype_Log\
+15=D:\download\
+

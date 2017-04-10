@@ -1,0 +1,5 @@
+afxふぁじ～めにゅ～
+"内部コマンド - !!reload      (メニューをリロード)                              "	!!reload
+"INTERNAL - Reload LR                  (左右ファイル窓更新)(update)         "	&RELOAD LR
+"INTERNAL - Reload L                   (左ファイル窓更新)(update)           "	&RELOAD L
+"INTERNAL - Reload R                   (右ファイル窓更新)(update)           "	&RELOAD R

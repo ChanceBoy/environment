@@ -1,0 +1,304 @@
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 01:56:52
+
+<Source>  D:\Programs\afxw\FastCopy\FastCopy.chm
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.1 MB
+TotalWrite = 0.1 MB
+TotalFiles = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 3.16 MB/s
+FileRate   = 31.3 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 01:56:58
+
+<Source>  D:\Programs\afxw\FastCopy\FastCopy.chm
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 0 (0)
+TotalSkip  = 0.1 MB
+SkipFiles  = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 01:58:08
+
+<Source>  D:\Programs\afxw\FastCopy\FastCopy.chm
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 0 (0)
+TotalSkip  = 0.1 MB
+SkipFiles  = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 01:59:16
+
+<Source>  D:\Programs\afxw\FastCopy\FastCopy.chm
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 0 (0)
+TotalSkip  = 0.1 MB
+SkipFiles  = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:00:44
+
+<Source>  D:\Programs\afxw\FastCopy\FastCopy.chm
+<DestDir> D:\MyPrograms\
+<Command> 差分（最新日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 0 (0)
+TotalSkip  = 0.1 MB
+SkipFiles  = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:01:00
+
+<Source>  D:\Programs\afxw\FastCopy\FastCopy.chm
+<DestDir> D:\MyPrograms\
+<Command> 移動（全上書き）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.1 MB
+TotalWrite = 0.1 MB
+TotalFiles = 1 (0)
+TotalDel   = 0.1 MB
+DelFiles   = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 101.0 MB/s
+FileRate   = 1,000 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:01:14
+
+<Source>  D:\MyPrograms\FastCopy.chm
+<DestDir> D:\Programs\afxw\FastCopy\
+<Command> 移動（全上書き）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.1 MB
+TotalWrite = 0.1 MB
+TotalFiles = 1 (0)
+TotalDel   = 0.1 MB
+DelFiles   = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 101.0 MB/s
+FileRate   = 1,000 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:01:32
+
+<Source>  D:\Programs\afxw\FastCopy\FastCopy.chm
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.1 MB
+TotalWrite = 0.1 MB
+TotalFiles = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 101.0 MB/s
+FileRate   = 1,000 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:01:52
+
+<Source>  D:\Programs\afxw\FastCopy\readme.txt
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 0.06 MB/s
+FileRate   = 32.3 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:02:04
+
+<Source>  D:\Programs\afxw\FastCopy\readme.txt
+<DestDir> D:\MyPrograms\
+<Command> 差分（上書きなし）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 0 (0)
+TotalSkip  = 0.0 MB
+SkipFiles  = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:02:11
+
+<Source>  D:\Programs\afxw\FastCopy\readme.txt
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 1.95 MB/s
+FileRate   = 1,000 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:02:35
+
+<Source>  D:\Programs\afxw\FastCopy\readme_eng.txt
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 0.08 MB/s
+FileRate   = 66.7 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:02:45
+
+<Source>  D:\Programs\afxw\FastCopy\readme.txt
+<DestDir> D:\MyPrograms\
+<Command> 差分（最新日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 1.95 MB/s
+FileRate   = 1,000 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:02:50
+
+<Source>  D:\Programs\afxw\FastCopy\readme_eng.txt
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 1.16 MB/s
+FileRate   = 1,000 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:04:37
+
+<Source>  D:\Programs\afxw\FastCopy\readme_eng.txt
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 1.16 MB/s
+FileRate   = 1,000 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+
+=================================================
+FastCopy(ver3.13) start at 2016/08/03 02:04:41
+
+<Source>  D:\Programs\afxw\FastCopy\readme_eng.txt
+<DestDir> D:\MyPrograms\
+<Command> 差分（サイズ・日付）
+-------------------------------------------------
+ No Errors
+
+TotalRead  = 0.0 MB
+TotalWrite = 0.0 MB
+TotalFiles = 0 (0)
+TotalSkip  = 0.0 MB
+SkipFiles  = 1 (0)
+TotalTime  = 0.0 sec
+TransRate  = 0.00 MB/s
+FileRate   = 0.00 files/s
+
+Result : (ErrFiles : 0 / ErrDirs : 0)
+

@@ -1,0 +1,26 @@
+scriptencoding utf-8
+
+"カラースキーマを設定
+colorscheme molokai
+syntax on
+let g:molokai_original = 1
+let g:rehash256 = 1
+set background=dark
+set t_Co=256 
+
+
+" "半角文字の設定
+" "set guifont=Consolas:h15
+" set guifont=Ricty_Diminished:h12:cSHIFTJIS
+" set rop=type:directx
+"
+" "全角文字の設定
+" set guifontwide=Ricty_Diminished:h12:cSHIFTJIS
+
+set enc=utf-8
+source $VIMRUNTIME/delmenu.vim
+set langmenu=ja_jp.utf-8
+source $VIMRUNTIME/menu.vim
+set guifont=Ricty_Diminished:h12:cSHIFTJIS
+set renderoptions=type:directx
+" set antialias

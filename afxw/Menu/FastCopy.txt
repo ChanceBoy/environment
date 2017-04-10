@@ -1,0 +1,9 @@
+afx FastCopy
+; パス、先頭キー等は適当に変更するべし
+"C 差分（サイズ・日付）" $v"afx"\FastCopy\fastcopy.exe /open_window /cmd=diff /auto_close /error_stop /log /estimate $MF /to="$O\"
+"N 差分（上書きなし）" $v"afx"\FastCopy\fastcopy.exe /open_window /cmd=noexist_only /auto_close /error_stop /log /estimate $MF /to="$O\"
+"U 差分（最新日付）" $v"afx"\FastCopy\fastcopy.exe /open_window /cmd=update /auto_close /error_stop /log /estimate $MF /to="$O\"
+"F コピー（全上書き）" $v"afx"\FastCopy\fastcopy.exe /open_window /cmd=force_copy /auto_close /error_stop /log /estimate $MF /to="$O\"
+"M 移動（全上書き）" $v"afx"\FastCopy\fastcopy.exe /open_window /cmd=move /auto_close /error_stop /log /estimate $MF /to="$O\"
+"S 同期（サイズ・日付）" $v"afx"\FastCopy\fastcopy.exe /open_window /cmd=sync /auto_close /error_stop /log /estimate $MF /to="$O\"
+"D 全削除" $v"afx"\..\FastCopy\fastcopy.exe /open_window /cmd=delete /auto_close /error_stop /log /estimate $MF
