@@ -1,0 +1,10 @@
+set enc=utf-8
+source $VIMRUNTIME/delmenu.vim
+set langmenu=ja_jp.utf-8
+source $VIMRUNTIME/menu.vim
+set guifont=Ricty_Diminished:h12:cSHIFTJIS
+set renderoptions=type:directx
+set antialias
+
+"hi Comment ctermfg=green
+highlight Comment ctermfg=Green 

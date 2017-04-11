@@ -1,0 +1,1374 @@
+# ã“ã® viminfo ãƒ•ã‚¡ã‚¤ãƒ«ã¯ Vim 8.0 ã«ã‚ˆã£ã¦ç”Ÿæˆã•ã‚Œã¾ã—ãŸ.
+# å¤‰æ›´ã™ã‚‹éš›ã«ã¯ååˆ†æ³¨æ„ã—ã¦ãã ã•ã„!
+
+# Viminfo version
+|1,4
+
+# ã“ã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒæ›¸ã‹ã‚ŒãŸæ™‚ã® 'encoding' ã®å€¤
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# æœ€å¾Œã® æ¤œç´¢ãƒ‘ã‚¿ãƒ¼ãƒ³:
+~Msle0~/\<x\>
+
+# æœ€å¾Œã® Substitute æ¤œç´¢ãƒ‘ã‚¿ãƒ¼ãƒ³:
+~MSle0&\n
+
+# æœ€å¾Œã«ç½®æ›ã•ã‚ŒãŸæ–‡å­—åˆ—:
+$ 
+
+# ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+:q
+|2,0,1487905315,,"q"
+:w
+|2,0,1487904273,,"w"
+::
+|2,0,1487841772,,":"
+:e
+|2,0,1487757711,,"e"
+:'<,'>w
+|2,0,1487730985,,"'<,'>w"
+:\\\
+|2,0,1487680897,,"\\\\\\"
+:]w
+|2,0,1487671113,,"]w"
+:wjkkk
+|2,0,1487329074,,"wjkkk"
+:w]
+|2,0,1487324904,,"w]"
+:@w
+|2,0,1487322346,,"@w"
+::w
+|2,0,1487211689,,":w"
+:\
+|2,0,1487073637,,"\\"
+:q!
+|2,0,1486611186,,"q!"
+:v/0x0000000000000000/d
+|2,0,1486610629,,"v/0x0000000000000000/d"
+:0x0000000000000000
+|2,0,1486609998,,"0x0000000000000000"
+:v/_pFileName/d
+|2,0,1486609979,,"v/_pFileName/d"
+:\\
+|2,0,1486554127,,"\\\\"
+:wq
+|2,0,1486029293,,"wq"
+:qw
+|2,0,1486029292,,"qw"
+:set fileencoding
+|2,0,1486028696,,"set fileencoding"
+:%s/
+|2,0,1485497902,,"%s/"
+:'<,'>s/\n/ /g
+|2,0,1485497700,,"'<,'>s/\\n/ /g"
+:'<,'>s/\n/
+|2,0,1485497656,,"'<,'>s/\\n/"
+:'<,'>s/; //g
+|2,0,1485496796,,"'<,'>s/; //g"
+:'<,'>s/; /
+|2,0,1485496780,,"'<,'>s/; /"
+:'<,'>s/\n/;/g
+|2,0,1485310815,,"'<,'>s/\\n/;/g"
+:'<,'>s/\n/; /g
+|2,0,1485310792,,"'<,'>s/\\n/; /g"
+:'<,'>s/;//g
+|2,0,1485248911,,"'<,'>s/;//g"
+:'<,'>s/;/\n/g
+|2,0,1485248847,,"'<,'>s/;/\\n/g"
+:'<,'>s/; /\n/g
+|2,0,1485248820,,"'<,'>s/; /\\n/g"
+:'<,'>
+|2,0,1485165199,,"'<,'>"
+:
+|2,0,1485164428,,""
+:'<,'>s//; /g
+|2,0,1485164416,,"'<,'>s//; /g"
+:'<,'>s/^M/; /g
+|2,0,1485164383,,"'<,'>s/^M/; /g"
+:%s//Prefix_Lua/g
+|2,0,1484203955,,"%s//Prefix_Lua/g"
+:%s/Framework.props/Lua.props/g
+|2,0,1484202778,,"%s/Framework.props/Lua.props/g"
+:vim/*..*/**/**
+|2,0,1484190423,,"vim/*..*/**/**"
+:vim/LuaManager
+|2,0,1484190390,,"vim/LuaManager"
+:vim/$(LIB_PATH)\Framework\Source\;/$(LIB_PATH)\Framework\Source\;$(LIB_PATH)\Lua\Source\;/g
+|2,0,1484189776,,"vim/$(LIB_PATH)\\Framework\\Source\\;/$(LIB_PATH)\\Framework\\Source\\;$(LIB_PATH)\\Lua\\Source\\;/g"
+:vim/"$(LIB_PATH)\Framework\Source\;"/"$(LIB_PATH)\Framework\Source\;$(LIB_PATH)\Lua\Source\;"/g
+|2,0,1484189759,,"vim/\"$(LIB_PATH)\\Framework\\Source\\;\"/\"$(LIB_PATH)\\Framework\\Source\\;$(LIB_PATH)\\Lua\\Source\\;\"/g"
+:%s/$(LIB_PATH)\Framework\Source\
+|2,0,1484189656,,"%s/$(LIB_PATH)\\Framework\\Source\\"
+:'<,'>s/
+|2,0,1484189638,,"'<,'>s/"
+:%s//Lua/g
+|2,0,1484128103,,"%s//Lua/g"
+:%s//
+|2,0,1484127591,,"%s//"
+:.,.+2
+|2,0,1484106287,,".,.+2"
+:set bomb
+|2,0,1483602225,,"set bomb"
+:set fileformat=unix
+|2,0,1483602222,,"set fileformat=unix"
+:set fileformat=unit
+|2,0,1483602217,,"set fileformat=unit"
+:set fileencoding=utf-8
+|2,0,1483602206,,"set fileencoding=utf-8"
+:vim *version* **
+|2,0,1482828763,,"vim *version* **"
+
+# æ¤œç´¢æ–‡å­—åˆ— é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+? \<x\>
+|2,1,1487680915,,"\\<x\\>"
+? \<ãƒ«ãƒ¼ãƒ—\>
+|2,1,1487663811,,"\\<ãƒ«ãƒ¼ãƒ—\\>"
+? \<mPosture\>
+|2,1,1487648564,,"\\<mPosture\\>"
+? \<pLoc\>
+|2,1,1487648548,,"\\<pLoc\\>"
+?/make
+|2,1,1487648544,47,"make"
+? \<ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼\>
+|2,1,1487234352,,"\\<ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼\\>"
+? \<ã„ãˆã„ãˆ\>
+|2,1,1487153898,,"\\<ã„ãˆã„ãˆ\\>"
+? 0x0000000000000000
+|2,1,1486610629,,"0x0000000000000000"
+? \<bt_wa_1001_001\>
+|2,1,1486608919,,"\\<bt_wa_1001_001\\>"
+? _pFileName
+|2,1,1486608908,,"_pFileName"
+? \<bt_wa_0002_001\>
+|2,1,1486608479,,"\\<bt_wa_0002_001\\>"
+?/filename
+|2,1,1486608233,47,"filename"
+? \<bt_cb_2001_001\>
+|2,1,1486608200,,"\\<bt_cb_2001_001\\>"
+? \<bt_cm_0001_001\>
+|2,1,1486608197,,"\\<bt_cm_0001_001\\>"
+?/animation
+|2,1,1486437377,47,"animation"
+?/keyboard
+|2,1,1486350959,47,"keyboard"
+? \<ã†ã‚‚ã®ãŒ\>
+|2,1,1486117528,,"\\<ã†ã‚‚ã®ãŒ\\>"
+? \<BattleManager\>
+|2,1,1486101179,,"\\<BattleManager\\>"
+?/platfor
+|2,1,1486029579,47,"platfor"
+?/bom
+|2,1,1486028678,47,"bom"
+? \<ãƒãƒ¼ãƒ‰\>
+|2,1,1486001943,,"\\<ãƒãƒ¼ãƒ‰\\>"
+? \<IsInputTrigger\>
+|2,1,1485940994,,"\\<IsInputTrigger\\>"
+? \<Shoot\>
+|2,1,1485940981,,"\\<Shoot\\>"
+?/gatling
+|2,1,1485940935,47,"gatling"
+? \<m_InputParam\>
+|2,1,1485940830,,"\\<m_InputParam\\>"
+?/input
+|2,1,1485940771,47,"input"
+? \<InputProgress\>
+|2,1,1485940768,,"\\<InputProgress\\>"
+?/
+|2,1,1485500536,47,""
+? \<ãŠ\>
+|2,1,1485497904,,"\\<ãŠ\\>"
+? \n
+|2,1,1485497700,,"\\n"
+?/huno
+|2,1,1485497609,47,"huno"
+?/takuo
+|2,1,1485496803,47,"takuo"
+? ; 
+|2,1,1485496796,,"; "
+? \<bt_ax_0001_001\>
+|2,1,1485338875,,"\\<bt_ax_0001_001\\>"
+? \<bt_ax_0002_001\>
+|2,1,1485338873,,"\\<bt_ax_0002_001\\>"
+? \<bt_ax_1001_001\>
+|2,1,1485338872,,"\\<bt_ax_1001_001\\>"
+? \<bt_cb_0001_001\>
+|2,1,1485338871,,"\\<bt_cb_0001_001\\>"
+? \<bt_cm_0002_001\>
+|2,1,1485338870,,"\\<bt_cm_0002_001\\>"
+? \<bt_ga_0001_001\>
+|2,1,1485338869,,"\\<bt_ga_0001_001\\>"
+? \<bt_ga_0002_001\>
+|2,1,1485338868,,"\\<bt_ga_0002_001\\>"
+? \<bt_ga_0003_001\>
+|2,1,1485338868,,"\\<bt_ga_0003_001\\>"
+? \<bt_ga_0004_001\>
+|2,1,1485338867,,"\\<bt_ga_0004_001\\>"
+? \<bt_ga_1001_001\>
+|2,1,1485338866,,"\\<bt_ga_1001_001\\>"
+? \<bt_sw_1001_001\>
+|2,1,1485338866,,"\\<bt_sw_1001_001\\>"
+? \<bt_wa_0001_001\>
+|2,1,1485338865,,"\\<bt_wa_0001_001\\>"
+?/ogasa
+|2,1,1485322442,47,"ogasa"
+?/ota
+|2,1,1485313552,47,"ota"
+?/ãŠãŸ
+|2,1,1485313549,47,"ãŠãŸ"
+?/yokono
+|2,1,1485310806,47,"yokono"
+?/oi
+|2,1,1485249223,47,"oi"
+
+# å¼ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+
+# å…¥åŠ›è¡Œ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+
+# ãƒ‡ãƒãƒƒã‚°è¡Œ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+
+# ãƒ¬ã‚¸ã‚¹ã‚¿:
+"0	CHAR	0
+	0x103A0439
+|3,0,0,0,1,0,1487904051,"0x103A0439"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1487904262,""
+"2	LINE	0
+	
+	_hOwner 0x103A0439
+	272499773
+	x103E043D
+|3,0,2,1,4,0,1487904215,"","_hOwner 0x103A0439","272499773","x103E043D"
+"3	LINE	0
+	_hOwner == 0x103A0439
+|3,0,3,1,1,0,1487904205,"_hOwner == 0x103A0439"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1487904204,""
+"5	CHAR	0
+	
+	0
+|3,0,5,0,2,0,1487903877,"","0"
+"6	LINE	0
+			OwnerHandle()		unsigned int
+|3,0,6,1,1,0,1487903842,"		OwnerHandle()		unsigned int"
+"7	LINE	0
+	- [ ] ãƒ›ãƒ¼ãƒ ã«æˆ»ã‚‰ãªã„å•é¡Œ
+|3,0,7,1,1,0,1487901851,"- [ ] ãƒ›ãƒ¼ãƒ ã«æˆ»ã‚‰ãªã„å•é¡Œ"
+"8	LINE	0
+	- [ ] æ‹ ç‚¹ã¾ã§ã¤ã„ã¦ã‹ã‚‰ã€éå»ã®ã‚¹ãƒ†ãƒ¼ã‚¸é¸ã¶ã¨æ•µãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ãªãã¦è½ã¡ã‚‹
+|3,0,8,1,1,0,1487842125,"- [ ] æ‹ ç‚¹ã¾ã§ã¤ã„ã¦ã‹ã‚‰ã€éå»ã®ã‚¹ãƒ†ãƒ¼ã‚¸é¸ã¶ã¨æ•µãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ãªãã¦è½ã¡ã‚‹"
+"9	LINE	0
+	- [ ] æ”»æ’ƒçµ‚äº†ãƒ•ãƒ¬ãƒ¼ãƒ è¨­å®š(é­”æ³•å¼¾ãŒå½“ãŸã‚‹å‰ã«æ•µå‹•ããªã©)
+|3,0,9,1,1,0,1487842120,"- [ ] æ”»æ’ƒçµ‚äº†ãƒ•ãƒ¬ãƒ¼ãƒ è¨­å®š(é­”æ³•å¼¾ãŒå½“ãŸã‚‹å‰ã«æ•µå‹•ããªã©)"
+"a	CHAR	0
+	iDEFINE_EFFPARAM(A)
+|3,0,10,0,1,0,1485335216,"iDEFINE_EFFPARAM(A)"
+"j	CHAR	0
+	k
+|3,0,19,0,1,0,1481098581,"k"
+"k	CHAR	0
+	kV}y€ıb€ıa:w€ü	:w€ü	€ıb€ıa€ı,€ı.€ıb€ıa
+|3,0,20,0,1,0,1485338421,"kV}y€ıb€ıa:w€ü	:w€ü	€ıb€ıa€ı,€ı.€ıb€ıa"
+"u	CHAR	0
+	1066
+<ujk:w€ıb€ıa€ı,€ı.€ı,€ı.o€kD€ıb€ıapjVk>kkkkkkkkkkkkkkkkkkkkkaè­¦å‘Šã¯€kb€kb€kbæ¸“è°·ã¯ã„ã„ãŒå¾¡å¶½å±±€kr€kbla€kr€kr€kr€kr€kr€kr€kr€kr€kb€kb€kb€kb€kb€kb€kb€kb€kb€kr€kbã¯jkVkdkkkkkkwwwbveehdj:wjjjjjjjjjjjjjjjjjjj:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkk:wjjjjjjjjjjjkkkkkkkkkkjjjjjjjhv$di€kr€kbjjpiï¼Šjki	jk]w:wkkkkkkkkkkkkkkkkkkkkkkkkwv$y€ıb€ıa€ı,€ı.€ı,€ı.€ı,€ı.€ı,€ı.iã‚¢ãƒªã€‘jkIï¼ˆ€kb ã€jkyykkkkkkkkpjk:w€ıb€ıa€ı,€ı.€ı,€ı.:wjkjjjjjjjjjj:wjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk:w€ıb€ıa:wggVGy€ıb€ıa€ı,€ı.kkk_jkrâ– jkyjjjkkhvyjjjjjjjjjjkjvpjjjjjjjj*"€kbjk€kb€kbsi€kb€kbâ– a€kb/g€kbgujjjjjjjjjjjjjjjjjj*/â– /g:wggVGy€ıb€ıa€ı,€ı.€ıb€ıa€ıb€ıa€ıb€ıa€ü	€ü€kB€ü	jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjw:wjjjkk€ıb€ıa€ıb€ıa:w€ıb€ıajk:w€ıb€ıa€ıb€ıajjjjjjjjotl TPãƒã‚§ãƒƒã‚¯ã‚¢ã‚¦ãƒˆjka pjkbjkbbbbbbbbbbi€kb	jk€ıb€ıa€ı,€ı.€ı,€ı.opjkI	€ıb€ıa€ı,€ı.€ıb€ıa€ı,€ı.€ı,€ı-€ı.€ı,€ı.o	p€ıb€ıapjkk:wjkkkkj€ıb€ıa€ı,€ı.o qp€kb€kb€kb€kD€ıb€ıapjkojk€ıb€ıajjkkkkpjkAjkIjk€ıb€ıako qp€kb€kb€kbpjkvvy€ıb€ıa€ıb€ıa€ıb€ıajjj€ıb€ıajkkVky€ıb€ıa
+|3,0,30,0,1,0,1480058468,>1066
+|<"ujk:w€ıb€ıa€ı,€ı.€ı,€ı.o€kD€ıb€ıapjVk>kkkkkkkkkkkkkkkkkkkkkaè­¦å‘Šã¯€kb€kb€kbæ¸“è°·ã¯ã„ã„ãŒå¾¡å¶½å±±€kr€kbla€kr€kr€kr€kr€kr€kr€kr€kr€kb€kb€kb€kb€kb€kb€kb€kb€kb€kr€kbã¯jkVkdkkkkkkwwwbveehdj:wjjjjjjjjjjjjjjjjjjj:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkk:wjjjjjjjjjjjkkkkkkkkkkjjjjjjjhv$di€kr€kbjjpiï¼Šjki	jk]w:wkkkkkkkkkkkkkkkkkkkkkkkkwv$y€ıb€ıa€ı,€ı.€ı,€ı.€ı,€ı.€ı,€ı.iã‚¢ãƒªã€‘jkIï¼ˆ€kb ã€jkyykkkkkkkkpjk:w€ıb€ıa€ı,€ı.€ı,€ı.:wjkjjjjjjjjjj:wjkkkkkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkk:w€ıb€ıa:wggVGy€ıb€ıa€ı,€ı.kkk_jkrâ– jkyjjjkkhvyjjjjjjjjjjkjvpjjjjjjjj*\"€kbjk€kb€kbsi€kb€kbâ– a€kb/g€kbgujjjjjjjjjjjjjjjjjj*/â– /g:wggVGy€ıb€ıa€ı,€ı.€ıb€ıa€ıb€ıa€ıb€ıa€ü	€ü€kB€ü	jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjw:wjjjkk€ıb€ıa€ıb€ıa:w€ıb€ıajk:w€ıb€ıa€ıb€ıajjjjjjjjotl TPãƒã‚§ãƒƒã‚¯ã‚¢ã‚¦ãƒˆjka pjkbjkbbbbbbbbbbi€kb	jk€ıb€ıa€ı,€ı.€ı,€ı.opjkI	€ıb€ıa€ı,€ı.€ıb€ıa€ı,€ı.€ı,€ı-€ı.€ı,€ı.o	p€ıb€ıapjkk:wjkkkkj€ıb€ıa€ı,€ı.o qp€kb€kb€kb€kD€ıb€ıapjkojk€ıb€ıa
+|<jjkkkkpjkAjkIjk€ıb€ıako qp€kb€kb€kbpjkvvy€ıb€ıa€ıb€ıa€ıb€ıajjj€ıb€ıajkkVky€ıb€ıa"
+"-	CHAR	0
+	272761921
+|3,0,36,0,1,0,1487903809,"272761921"
+
+# ãƒ•ã‚¡ã‚¤ãƒ«ãƒãƒ¼ã‚¯:
+'0  286  9  D:\work\todo.md
+|4,48,286,9,1487904914,"D:\\work\\todo.md"
+'1  295  20  D:\work\todo.md
+|4,49,295,20,1487225198,"D:\\work\\todo.md"
+'2  239  20  D:\work\todo.md
+|4,50,239,20,1487225198,"D:\\work\\todo.md"
+'3  294  1  D:\work\todo.md
+|4,51,294,1,1487153694,"D:\\work\\todo.md"
+'4  294  1  D:\work\todo.md
+|4,52,294,1,1487153694,"D:\\work\\todo.md"
+'5  231  1  D:\work\todo.md
+|4,53,231,1,1487153694,"D:\\work\\todo.md"
+'6  231  1  D:\work\todo.md
+|4,54,231,1,1487153694,"D:\\work\\todo.md"
+'7  1  0  D:\work\todo.md
+|4,55,1,0,1487068278,"D:\\work\\todo.md"
+'8  1  0  D:\work\todo.md
+|4,56,1,0,1487068278,"D:\\work\\todo.md"
+'9  1  0  D:\work\todo.md
+|4,57,1,0,1487068278,"D:\\work\\todo.md"
+
+# ã‚¸ãƒ£ãƒ³ãƒ—ãƒªã‚¹ãƒˆ (æ–°ã—ã„ã‚‚ã®ãŒå…ˆ):
+-'  286  9  D:\work\todo.md
+|4,39,286,9,1487904914,"D:\\work\\todo.md"
+-'  286  9  D:\work\todo.md
+|4,39,286,9,1487904914,"D:\\work\\todo.md"
+-'  287  0  D:\work\todo.md
+|4,39,287,0,1487904272,"D:\\work\\todo.md"
+-'  287  0  D:\work\todo.md
+|4,39,287,0,1487904272,"D:\\work\\todo.md"
+-'  285  0  D:\work\todo.md
+|4,39,285,0,1487904271,"D:\\work\\todo.md"
+-'  280  0  D:\work\todo.md
+|4,39,280,0,1487904271,"D:\\work\\todo.md"
+-'  285  0  D:\work\todo.md
+|4,39,285,0,1487904271,"D:\\work\\todo.md"
+-'  280  0  D:\work\todo.md
+|4,39,280,0,1487904271,"D:\\work\\todo.md"
+-'  288  0  D:\work\todo.md
+|4,39,288,0,1487901844,"D:\\work\\todo.md"
+-'  288  0  D:\work\todo.md
+|4,39,288,0,1487901844,"D:\\work\\todo.md"
+-'  284  0  D:\work\todo.md
+|4,39,284,0,1487844333,"D:\\work\\todo.md"
+-'  284  0  D:\work\todo.md
+|4,39,284,0,1487844333,"D:\\work\\todo.md"
+-'  293  0  D:\work\todo.md
+|4,39,293,0,1487844196,"D:\\work\\todo.md"
+-'  289  0  D:\work\todo.md
+|4,39,289,0,1487844196,"D:\\work\\todo.md"
+-'  293  0  D:\work\todo.md
+|4,39,293,0,1487844196,"D:\\work\\todo.md"
+-'  289  0  D:\work\todo.md
+|4,39,289,0,1487844196,"D:\\work\\todo.md"
+-'  282  0  D:\work\todo.md
+|4,39,282,0,1487844194,"D:\\work\\todo.md"
+-'  282  0  D:\work\todo.md
+|4,39,282,0,1487844194,"D:\\work\\todo.md"
+-'  274  0  D:\work\todo.md
+|4,39,274,0,1487840855,"D:\\work\\todo.md"
+-'  264  42  D:\work\todo.md
+|4,39,264,42,1487840855,"D:\\work\\todo.md"
+-'  274  0  D:\work\todo.md
+|4,39,274,0,1487840855,"D:\\work\\todo.md"
+-'  264  42  D:\work\todo.md
+|4,39,264,42,1487840855,"D:\\work\\todo.md"
+-'  297  0  D:\work\todo.md
+|4,39,297,0,1487834427,"D:\\work\\todo.md"
+-'  297  0  D:\work\todo.md
+|4,39,297,0,1487834427,"D:\\work\\todo.md"
+-'  295  0  D:\work\todo.md
+|4,39,295,0,1487834426,"D:\\work\\todo.md"
+-'  295  0  D:\work\todo.md
+|4,39,295,0,1487834426,"D:\\work\\todo.md"
+-'  273  0  D:\work\todo.md
+|4,39,273,0,1487834395,"D:\\work\\todo.md"
+-'  273  0  D:\work\todo.md
+|4,39,273,0,1487834395,"D:\\work\\todo.md"
+-'  277  0  D:\work\todo.md
+|4,39,277,0,1487833478,"D:\\work\\todo.md"
+-'  277  0  D:\work\todo.md
+|4,39,277,0,1487833478,"D:\\work\\todo.md"
+-'  256  63  D:\work\todo.md
+|4,39,256,63,1487833471,"D:\\work\\todo.md"
+-'  256  63  D:\work\todo.md
+|4,39,256,63,1487833471,"D:\\work\\todo.md"
+-'  255  0  D:\work\todo.md
+|4,39,255,0,1487830538,"D:\\work\\todo.md"
+-'  255  0  D:\work\todo.md
+|4,39,255,0,1487830538,"D:\\work\\todo.md"
+-'  276  0  D:\work\todo.md
+|4,39,276,0,1487830536,"D:\\work\\todo.md"
+-'  276  0  D:\work\todo.md
+|4,39,276,0,1487830536,"D:\\work\\todo.md"
+-'  267  22  D:\work\todo.md
+|4,39,267,22,1487821443,"D:\\work\\todo.md"
+-'  267  22  D:\work\todo.md
+|4,39,267,22,1487821443,"D:\\work\\todo.md"
+-'  268  0  D:\work\todo.md
+|4,39,268,0,1487820472,"D:\\work\\todo.md"
+-'  268  0  D:\work\todo.md
+|4,39,268,0,1487820472,"D:\\work\\todo.md"
+-'  248  40  D:\work\todo.md
+|4,39,248,40,1487820471,"D:\\work\\todo.md"
+-'  248  40  D:\work\todo.md
+|4,39,248,40,1487820471,"D:\\work\\todo.md"
+-'  247  77  D:\work\todo.md
+|4,39,247,77,1487820344,"D:\\work\\todo.md"
+-'  247  77  D:\work\todo.md
+|4,39,247,77,1487820344,"D:\\work\\todo.md"
+-'  263  9  D:\work\todo.md
+|4,39,263,9,1487820330,"D:\\work\\todo.md"
+-'  263  9  D:\work\todo.md
+|4,39,263,9,1487820330,"D:\\work\\todo.md"
+-'  257  60  D:\work\todo.md
+|4,39,257,60,1487819341,"D:\\work\\todo.md"
+-'  257  60  D:\work\todo.md
+|4,39,257,60,1487819341,"D:\\work\\todo.md"
+-'  270  58  D:\work\todo.md
+|4,39,270,58,1487817128,"D:\\work\\todo.md"
+-'  270  58  D:\work\todo.md
+|4,39,270,58,1487817128,"D:\\work\\todo.md"
+-'  239  20  D:\work\todo.md
+|4,39,239,20,1487225198,"D:\\work\\todo.md"
+-'  239  20  D:\work\todo.md
+|4,39,239,20,1487225198,"D:\\work\\todo.md"
+-'  239  20  D:\work\todo.md
+|4,39,239,20,1487225198,"D:\\work\\todo.md"
+-'  239  20  D:\work\todo.md
+|4,39,239,20,1487225198,"D:\\work\\todo.md"
+-'  238  21  D:\work\todo.md
+|4,39,238,21,1487223830,"D:\\work\\todo.md"
+-'  238  21  D:\work\todo.md
+|4,39,238,21,1487223830,"D:\\work\\todo.md"
+-'  238  21  D:\work\todo.md
+|4,39,238,21,1487223830,"D:\\work\\todo.md"
+-'  238  21  D:\work\todo.md
+|4,39,238,21,1487223830,"D:\\work\\todo.md"
+-'  236  63  D:\work\todo.md
+|4,39,236,63,1487223779,"D:\\work\\todo.md"
+-'  236  63  D:\work\todo.md
+|4,39,236,63,1487223779,"D:\\work\\todo.md"
+-'  236  63  D:\work\todo.md
+|4,39,236,63,1487223779,"D:\\work\\todo.md"
+-'  236  63  D:\work\todo.md
+|4,39,236,63,1487223779,"D:\\work\\todo.md"
+-'  211  15  D:\work\todo.md
+|4,39,211,15,1487223000,"D:\\work\\todo.md"
+-'  211  15  D:\work\todo.md
+|4,39,211,15,1487223000,"D:\\work\\todo.md"
+-'  211  15  D:\work\todo.md
+|4,39,211,15,1487223000,"D:\\work\\todo.md"
+-'  211  15  D:\work\todo.md
+|4,39,211,15,1487223000,"D:\\work\\todo.md"
+-'  240  0  D:\work\todo.md
+|4,39,240,0,1487212086,"D:\\work\\todo.md"
+-'  248  0  D:\work\todo.md
+|4,39,248,0,1487212086,"D:\\work\\todo.md"
+-'  240  0  D:\work\todo.md
+|4,39,240,0,1487212086,"D:\\work\\todo.md"
+-'  248  0  D:\work\todo.md
+|4,39,248,0,1487212086,"D:\\work\\todo.md"
+-'  240  0  D:\work\todo.md
+|4,39,240,0,1487212086,"D:\\work\\todo.md"
+-'  248  0  D:\work\todo.md
+|4,39,248,0,1487212086,"D:\\work\\todo.md"
+-'  240  0  D:\work\todo.md
+|4,39,240,0,1487212086,"D:\\work\\todo.md"
+-'  248  0  D:\work\todo.md
+|4,39,248,0,1487212086,"D:\\work\\todo.md"
+-'  250  0  D:\work\todo.md
+|4,39,250,0,1487212085,"D:\\work\\todo.md"
+-'  252  0  D:\work\todo.md
+|4,39,252,0,1487212085,"D:\\work\\todo.md"
+-'  255  0  D:\work\todo.md
+|4,39,255,0,1487212085,"D:\\work\\todo.md"
+-'  250  0  D:\work\todo.md
+|4,39,250,0,1487212085,"D:\\work\\todo.md"
+-'  252  0  D:\work\todo.md
+|4,39,252,0,1487212085,"D:\\work\\todo.md"
+-'  255  0  D:\work\todo.md
+|4,39,255,0,1487212085,"D:\\work\\todo.md"
+-'  250  0  D:\work\todo.md
+|4,39,250,0,1487212085,"D:\\work\\todo.md"
+-'  252  0  D:\work\todo.md
+|4,39,252,0,1487212085,"D:\\work\\todo.md"
+-'  255  0  D:\work\todo.md
+|4,39,255,0,1487212085,"D:\\work\\todo.md"
+-'  250  0  D:\work\todo.md
+|4,39,250,0,1487212085,"D:\\work\\todo.md"
+-'  252  0  D:\work\todo.md
+|4,39,252,0,1487212085,"D:\\work\\todo.md"
+-'  255  0  D:\work\todo.md
+|4,39,255,0,1487212085,"D:\\work\\todo.md"
+-'  260  0  D:\work\todo.md
+|4,39,260,0,1487212084,"D:\\work\\todo.md"
+-'  263  0  D:\work\todo.md
+|4,39,263,0,1487212084,"D:\\work\\todo.md"
+-'  275  0  D:\work\todo.md
+|4,39,275,0,1487212084,"D:\\work\\todo.md"
+-'  260  0  D:\work\todo.md
+|4,39,260,0,1487212084,"D:\\work\\todo.md"
+-'  263  0  D:\work\todo.md
+|4,39,263,0,1487212084,"D:\\work\\todo.md"
+-'  275  0  D:\work\todo.md
+|4,39,275,0,1487212084,"D:\\work\\todo.md"
+-'  260  0  D:\work\todo.md
+|4,39,260,0,1487212084,"D:\\work\\todo.md"
+-'  263  0  D:\work\todo.md
+|4,39,263,0,1487212084,"D:\\work\\todo.md"
+-'  275  0  D:\work\todo.md
+|4,39,275,0,1487212084,"D:\\work\\todo.md"
+-'  260  0  D:\work\todo.md
+|4,39,260,0,1487212084,"D:\\work\\todo.md"
+-'  263  0  D:\work\todo.md
+|4,39,263,0,1487212084,"D:\\work\\todo.md"
+-'  275  0  D:\work\todo.md
+|4,39,275,0,1487212084,"D:\\work\\todo.md"
+-'  259  0  D:\work\todo.md
+|4,39,259,0,1487212083,"D:\\work\\todo.md"
+
+# ãƒ•ã‚¡ã‚¤ãƒ«å†…ãƒãƒ¼ã‚¯ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®):
+
+> D:\work\todo.md
+	*	1487904913	0
+	"	286	9
+	^	285	0
+	.	287	0
+	+	268	0
+	+	267	0
+	+	267	1
+	+	267	0
+	+	268	0
+	+	267	0
+	+	276	0
+	+	271	19
+	+	268	24
+	+	273	1
+	+	274	0
+	+	273	37
+	+	274	1
+	+	271	6
+	+	274	0
+	+	271	19
+	+	271	0
+	+	269	0
+	+	271	0
+	+	273	0
+	+	271	65
+	+	270	30
+	+	271	0
+	+	272	25
+	+	270	0
+	+	271	0
+	+	276	0
+	+	267	0
+	+	268	0
+	+	272	0
+	+	273	0
+	+	268	0
+	+	289	0
+	+	288	0
+	+	276	0
+	+	289	0
+	+	289	28
+	+	289	0
+	+	278	0
+	+	289	0
+	+	277	0
+	+	289	0
+	+	276	0
+	+	277	8
+	+	290	0
+	+	263	0
+	+	290	0
+	+	275	0
+	+	290	0
+	+	290	99
+	+	295	0
+	+	289	0
+	+	277	0
+	+	295	45
+	+	290	0
+	+	290	79
+	+	277	0
+	+	278	0
+	+	279	47
+	+	280	0
+	+	278	0
+	+	279	0
+	+	289	0
+	+	282	0
+	+	295	0
+	+	290	0
+	+	291	0
+	+	293	0
+	+	290	0
+	+	292	0
+	+	287	0
+	+	284	33
+	+	284	0
+	+	281	0
+	+	287	0
+	+	286	9
+	+	286	0
+	+	287	0
+	+	287	21
+	+	287	0
+	+	286	0
+	+	285	0
+	+	287	0
+
+> D:\TP\Program\Source\Game\Object\Behavior\Battle\BehaviorQueue_BattleBasic.cpp
+	*	1487648755	0
+	"	933	3
+
+> D:\TP\Program\Source\Game\Object\Behavior\Battle\BehaviorQueue_BattleBonus.cpp
+	*	1487647982	0
+	"	70	1
+
+> D:\EM\Asset\Parameter\Prototype\Asset\Xdata\MakeWin.bat
+	*	1487227322	0
+	"	6	0
+	.	7	0
+	+	7	0
+
+> D:\EM\Asset\Parameter\Prototype\Asset\Xdata\MakeCommand.bat
+	*	1487223775	0
+	"	21	0
+
+> D:\EM\Program\Data\download_win.bat
+	*	1487222998	0
+	"	5	0
+	.	6	0
+	+	6	0
+
+> D:\EM\Program\Data\cmd_download_master.bat
+	*	1487222994	0
+	"	40	31
+	.	41	0
+	+	41	0
+
+> D:\work\]
+	*	1487068470	0
+	"	182	0
+
+> D:\EM\Program\Askaå¤‰æ›´ç‚¹.txt
+	*	1486466940	0
+	"	53	37
+
+> D:\EM\Tools\bin\Converter\CocosDataBuild.js
+	*	1486352599	0
+	"	28	0
+
+> D:\TP\Program\Source\Game\Component\Debug\DebugBattleLogComp.cpp
+	*	1486352093	0
+	"	901	17
+
+> D:\EM\Program\Source\Game\System\DataManager.cpp
+	*	1486030829	0
+	"	1	0
+
+> C:\EM\Tools\bin\Converter\CocosDataBuild.js
+	*	1486029648	0
+	"	27	0
+	.	26	0
+	+	44	0
+	+	36	0
+	+	39	0
+	+	47	0
+	+	36	0
+	+	26	0
+
+> D:\work\[unite] - files
+	*	1486028674	0
+	"	2	0
+	^	1	0
+	.	2	0
+	+	2	0
+	+	1	0
+	+	2	0
+
+> \\Sho-suzuki2\BC\Program\Source\Game\Battle\Object\AttackShooter.cpp
+	*	1485951988	0
+	"	635	7
+
+> D:\EM\Local\yoshizawa_soubetsu.txt
+	*	1485933246	0
+	"	64	0
+	.	173	0
+	+	113	0
+	+	117	0
+	+	114	0
+	+	138	0
+	+	117	0
+	+	100	0
+	+	117	0
+	+	138	22
+	+	138	18
+	+	138	21
+	+	138	22
+	+	118	23
+	+	138	0
+	+	118	0
+	+	166	0
+	+	145	0
+	+	175	0
+	+	144	78
+	+	144	93
+	+	144	78
+	+	143	75
+	+	144	78
+	+	145	0
+	+	144	0
+	+	166	9
+	+	167	0
+	+	166	36
+	+	169	39
+	+	170	0
+	+	157	0
+	+	158	5
+	+	161	0
+	+	158	33
+	+	166	69
+	+	144	0
+	+	143	0
+	+	144	48
+	+	144	0
+	+	141	0
+	+	146	3
+	+	147	26
+	+	149	0
+	+	152	0
+	+	150	19
+	+	161	0
+	+	163	29
+	+	163	18
+	+	163	39
+	+	158	42
+	+	147	9
+	+	154	6
+	+	155	5
+	+	161	0
+	+	146	0
+	+	161	0
+	+	164	0
+	+	166	21
+	+	161	0
+	+	164	39
+	+	161	0
+	+	158	5
+	+	159	26
+	+	158	48
+	+	170	0
+	+	161	0
+	+	164	42
+	+	153	0
+	+	151	0
+	+	160	69
+	+	164	81
+	+	155	2
+	+	163	48
+	+	164	45
+	+	98	9
+	+	121	0
+	+	120	19
+	+	174	0
+	+	173	48
+	+	173	0
+	+	173	42
+	+	173	27
+	+	173	55
+	+	174	0
+	+	173	108
+	+	174	0
+	+	173	92
+	+	173	84
+	+	174	0
+	+	175	0
+	+	173	87
+	+	173	0
+	+	173	39
+	+	172	3
+	+	173	0
+
+> D:\EM\Asset\Parameter\AssetPrototype\Xdata\Makefile\Parameter\master\makefile
+	*	1485851796	0
+	"	1	0
+
+> ~\_vimrc
+	*	1485829622	0
+	"	83	11
+	^	83	14
+	.	83	11
+	+	66	0
+	+	69	0
+	+	68	1
+	+	67	0
+	+	1	0
+	+	70	0
+	+	71	19
+	+	71	0
+	+	55	0
+	+	54	14
+	+	46	0
+	+	51	0
+	+	47	0
+	+	49	0
+	+	50	0
+	+	1	0
+	+	19	0
+	+	15	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	18	0
+	+	88	0
+	+	86	0
+	+	87	65
+	+	122	0
+	+	94	0
+	+	120	56
+	+	121	61
+	+	120	56
+	+	121	61
+	+	94	0
+	+	93	0
+	+	91	2
+	+	90	0
+	+	86	0
+	+	79	0
+	+	78	0
+	+	78	55
+	+	91	14
+	+	78	5
+	+	120	61
+	+	121	66
+	+	120	2
+	+	120	0
+	+	120	2
+	+	120	0
+	+	118	0
+	+	119	0
+	+	118	57
+	+	119	62
+	+	106	0
+	+	87	0
+	+	110	0
+	+	112	0
+	+	122	0
+	+	122	38
+	+	122	0
+	+	122	36
+	+	122	0
+	+	78	1
+	+	78	0
+	+	1	0
+	+	78	0
+	+	73	0
+	+	1	0
+	+	2	0
+	+	73	0
+	+	74	0
+	+	77	0
+	+	86	0
+	+	81	14
+	+	80	59
+	+	4	0
+	+	7	0
+	+	84	16
+	+	85	16
+	+	83	11
+	m	1	0
+
+> ~\_vsvimrc
+	*	1485829621	0
+	"	37	0
+	.	37	0
+	+	37	0
+
+> D:\EM\Program\Source\Game\Component\Battle\BattleCameraNormal.h
+	*	1485828791	0
+	"	4	0
+
+> D:\EM\BAS_Asset\Asset\Xdata\MakeWin.bat
+	*	1485769696	0
+	"	1	0
+	^	7	5
+	.	7	5
+	+	7	4
+	+	1	0
+	+	7	5
+
+> D:\EM\Program\Library\Application\Application\Unit\EffectUnit.h
+	*	1485337924	0
+	"	59	32
+	^	59	3
+	.	59	3
+	+	59	3
+
+> D:\EM\Program\Project\EM\EM.vcxproj.filters
+	*	1485247376	0
+	"	3	0
+
+> D:\EM\Program\Project\EM\EM.vcxproj
+	*	1485247374	0
+	"	445	64
+	^	251	113
+	.	251	112
+	+	223	0
+	+	222	112
+	+	252	0
+	+	251	119
+	+	251	0
+	+	251	112
+
+> D:\EM\Local\effect
+	*	1485245248	0
+	"	1	0
+
+> \\tri-ace\dfs\Projects\BAS\Document\Plan\Outline\è³‡æ–™\SO2è³‡æ–™ã‹ãé›†ã‚\ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ãƒ‰ãƒƒãƒˆçµµ\ashton\NorthernCross\ashton_freehand_northerncross.psl.chg
+	*	1485156531	0
+	"	1	0
+
+> C:\Programs\afxw64\Script\MakeNewFile.js
+	*	1485149927	0
+	"	101	1
+
+> C:\Programs\afxw64\Script\template.cpp
+	*	1485149903	0
+	"	1	0
+	.	7	10
+	+	7	10
+
+> D:\EM\Master\Win\Master\master_enemy_party.msgp
+	*	1484641295	0
+	"	1	0
+
+> D:\EM\BAS_Asset\Asset\Xdata\Makefile\Parameter\master\Global\ResourceList.csv
+	*	1484641124	0
+	"	2	0
+	^	4	44
+	.	4	44
+	+	2	0
+	+	3	0
+	+	4	44
+
+> D:\EM\BAS_Asset\Asset\Xdata\Makefile\Parameter\master\Global\MakeTarget.bat
+	*	1484641050	0
+	"	1	0
+
+> D:\EM\BAS_Asset\Asset\Xdata\Output\Win\Master\master_battle_global.msgp
+	*	1484639143	0
+	"	1	43
+
+> D:\EM\BAS_Asset\Asset\Xdata\Output\Win\Master\master_enemy_base_parameter.msgp
+	*	1484639133	0
+	"	1	0
+
+> D:\EM\BAS_Asset\Asset\Xdata\Sqlite\em_create_sqlite_table.sql
+	*	1484638303	0
+	"	4	0
+	.	4	0
+	+	3	0
+	+	3	1227
+	+	3	233
+	+	3	0
+	+	2	0
+	+	4	0
+
+> D:\BAS\Client\Source\CServer\DB\MasterTables.h
+	*	1484638301	0
+	"	104	29
+
+> \\Sho-suzuki2\BAS\Asset\Xdata\Sqlite\bas_create_sqlite_table.sql
+	*	1484635713	0
+	"	13	26
+
+> \\Sho-suzuki2\BAS\Asset\Xdata\Sqlite\CreateSqliteDatabase.bat
+	*	1484635677	0
+	"	5	0
+
+> D:\EM\BAS_Asset\Asset\Tools\bin\csv2sqlite.js
+	*	1484634877	0
+	"	141	1
+
+> D:\EM\BAS_Asset\Asset\Tools\bin\json2sqlite.js
+	*	1484634875	0
+	"	447	5
+	.	447	0
+	+	447	3
+	+	447	0
+	+	447	3
+	+	447	4
+	+	447	28
+	+	447	0
+	+	447	57
+	+	447	4
+	+	447	82
+	+	447	0
+
+> D:\EM\BAS_Asset\Asset\Xdata\Sqlite\CreateSqliteDatabase.bat
+	*	1484632508	0
+	"	25	54
+	^	25	60
+	.	18	0
+	+	17	53
+	+	17	64
+	+	17	0
+	+	17	53
+	+	17	0
+	+	17	65
+	+	18	0
+
+> D:\EM\BAS_Asset\Asset\Xdata\Makefile\Parameter\master\makefile
+	*	1484631727	0
+	"	13	14
+	.	13	14
+	+	13	14
+
+> D:\EM\BAS_Asset\Asset\Xdata\Output\Win\sqlite\em_master.sqlite3
+	*	1484630698	0
+	"	1	0
+
+> D:\EM\BAS_Asset\Asset\Xdata\Makefile\sub_parameter.mak
+	*	1484624672	0
+	"	121	63
+
+> \\Sho-suzuki2\BAS\Asset\Xdata\Makefile\Parameter\master\Global\ResourceList.csv
+	*	1484624338	0
+	"	10	7
+
+> D:\EM\BAS_Asset\Asset\Xdata\Makefile\Parameter\master\Global\master_battle_global.mak
+	*	1484624011	0
+	"	1	0
+
+> D:\EM\Local\Luaã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ãƒ†ã‚¹ãƒˆ\win64\Test.lua
+	*	1484213252	0
+	"	1	24
+	.	1	24
+	+	1	24
+
+> D:\EM\Program\Library\Application\Application.vcxproj
+	*	1484212192	0
+	"	698	109
+
+> D:\EM\Program\Library\Lua\Project\Lua.vcxproj
+	*	1484203991	0
+	"	1422	58
+	.	1002	0
+	+	591	0
+	+	578	0
+	+	578	88
+	+	608	80
+	+	639	0
+	+	638	108
+	+	668	108
+	+	698	108
+	+	800	80
+	+	827	109
+	+	838	109
+	+	849	109
+	+	860	109
+	+	142	21
+	+	439	0
+	+	1	0
+	+	2	0
+	+	1002	0
+
+> D:\EM\Program\Library\Lua\Project\Lua.props
+	*	1484202837	0
+	"	13	37
+
+> D:\EM\Program\Library\Lua\Project\Lua.vcxproj.filters
+	*	1484202834	0
+	"	1	0
+
+> D:\EM\Program\Library\Lua\Project\Lua.vcxproj.user
+	*	1484202641	0
+	"	1	0
+
+> D:\EM\Program\Library\Framework\Project\Framework.props
+	*	1484202624	0
+	"	21	27
+
+> D:\EM\Program\Library\Lua\Source\Distribution\src\lapi.c
+	*	1484190618	0
+	"	38	0
+
+> D:\EM\Program\Library\Lua\Source\LuaManager.cpp
+	*	1484190390	0
+	"	1	0
+
+> D:\EM\Program\Library\Lua\Project\Application.vcxproj
+	*	1484127460	0
+	"	1087	0
+
+> D:\EM\Program\Library\Application\Application.vcxproj.user
+	*	1484127442	0
+	"	2	0
+
+> D:\EM\Program\Library\Lua\Project\Framework.vcxproj.filters
+	*	1484127262	0
+	"	32	4
+
+> D:\EM\Program\Library\Framework\Project\CMakeLists.txt
+	*	1484127185	0
+	"	1	0
+
+> D:\EM\Program\Library\Framework\Source\Framework\Utility\BScript\Compiler\prefix.h
+	*	1484125445	0
+	"	92	1
+
+> D:\EM\Program\Library\Framework\Source\Framework\Utility\BScript\Compiler\debug.h
+	*	1484125445	0
+	"	50	1
+
+> D:\EM\Program\Library\Lua\Project\Lua\ReadMe.txt
+	*	1484104598	0
+	"	19	0
+
+> C:\Programs\yamy\mysetting.mayu
+	*	1483692167	0
+	"	39	23
+	^	39	19
+	.	39	18
+	+	42	0
+	+	33	0
+	+	38	0
+	+	40	0
+	+	38	8
+	+	39	8
+	+	40	8
+	+	41	8
+	+	39	18
+	+	38	8
+	+	39	18
+
+> D:\EM\Local\æ©Ÿèƒ½è¦æœ›_å¾³ç”°.txt
+	*	1483691676	0
+	"	1	0
+
+> \\tri-ace\Dfs\Projects\BAS\Personal\tokuda\æ©Ÿèƒ½è¦æœ›_å¾³ç”°.txt
+	*	1483691654	0
+	"	1	0
+
+> D:\EM\Program\Source\Game\Component\Battle\BattleNormalAttackActionModule.h
+	*	1483683962	0
+	"	1	0
+
+> D:\EM\Program\Source\Game\Component\Battle\BattleGroupManagerComponent.cpp
+	*	1483683851	0
+	"	1	0
+
+> D:\EM\Program\Source\Game\Component\Battle\BattleMagicAttack.h
+	*	1483683569	0
+	"	1	0
+
+> D:\EM\Program\Source\Game\Component\Battle\BattleUnitControlModule.cpp
+	*	1483683465	0
+	"	1	0
+
+> D:\Users\sho-suzuki\Downloads\VimExcel_1.2.2\VimExcel_1.2.2\Readme.txt
+	*	1483598263	0
+	"	46	21
+
+> C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3Dcompiler.h
+	*	1483586087	0
+	"	16	22
+	.	2	0
+	+	2	0
+
+> C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9core.h
+	*	1483586081	0
+	"	43	56
+
+> C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3DX11core.h
+	*	1483586079	0
+	"	1	0
+
+> D:\work\[unite] - default
+	*	1483585683	0
+	"	2	0
+	^	1	0
+	.	2	0
+	+	2	0
+
+> C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\D3D11.h
+	*	1483584952	0
+	"	2	0
+
+> C:\Programs\afxw64\mk_shcut.exe
+	*	1482904261	0
+	"	2	0
+
+> D:\EM\Local\luacTest\win64\Test.lua
+	*	1482830687	0
+	"	1	24
+	^	1	25
+	.	1	24
+	+	1	24
+
+> D:\work\9387_æ°¸é‡.xls
+	*	1482828825	0
+	"	51	198
+
+> D:\EM\Program\Library\Framework\Source\Framework\Utility\Lua\Distribution\Makefile
+	*	1482828756	0
+	"	1	0
+
+> D:\EM\Program\Library\Framework\Tools\bin\Test.luac
+	*	1482827502	0
+	"	1	0
+
+> D:\EM\Program\Library\Aska\Server\EntityLib\Original\PostgreSQL\sources\src\backend\port\dynloader\cygwin.h
+	*	1482827116	0
+	"	36	0
+
+> D:\EM\Master\Win\Test.lua
+	*	1482826874	0
+	"	28	18
+	^	28	19
+	.	28	19
+	+	25	3
+	+	26	12
+	+	25	34
+	+	27	25
+	+	26	35
+	+	27	38
+	+	26	39
+	+	27	40
+	+	25	2
+	+	29	0
+	+	27	40
+	+	26	38
+	+	27	16
+	+	3	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	19
+	+	29	0
+	+	28	19
+
+> D:\EM\Master\Win\TestInclude.lua
+	*	1482826871	0
+	"	2	9
+	^	4	36
+	.	4	35
+	+	7	0
+	+	1	0
+	+	4	0
+	+	3	1
+	+	7	0
+	+	6	2
+	+	4	35
+
+> D:\EM\Program\Library\Application\Application\Component\Contents\Asset\ScriptAssetComponent.cpp
+	*	1482824732	0
+	"	1	0
+	.	7	10
+	+	7	10
+
+> D:\TP\BattleScript\test_magic.lua
+	*	1482823564	0
+	"	1	0
+
+> ~\vimfiles\ftplugin\markdown.vim
+	*	1482736242	0
+	"	31	0
+
+> D:\Users\sho-suzuki\Desktop\Script\Script\template.cpp
+	*	1481870999	0
+	"	1	0
+
+> D:\TP\BattleScript\test_repair.lua
+	*	1481870998	0
+	"	12	17
+
+> \\tri-ace\Dfs\Personal\sho-suzuki\Test.lua
+	*	1481798293	0
+	"	1	0
+
+> D:\EM\Local\Test.lua
+	*	1481797579	0
+	"	23	34
+	^	22	16
+	.	22	15
+	+	52	0
+	+	1	0
+	+	1	14
+	+	1	0
+	+	1	2
+	+	1	0
+	+	1	30
+	+	1	1
+	+	1	11
+	+	1	2
+	+	1	0
+	+	1	23
+	+	1	0
+	+	1	1
+	+	1	2
+	+	1	3
+	+	1	2
+	+	1	0
+	+	1	3
+	+	1	2
+	+	1	0
+	+	1	17
+	+	1	16
+	+	1	0
+	+	52	0
+	+	53	0
+	+	1	0
+	+	7	0
+	+	16	0
+	+	17	1
+	+	18	15
+	+	19	1
+	+	36	0
+	+	45	0
+	+	49	0
+	+	1	0
+	+	22	0
+	+	6	0
+	+	1	0
+	+	28	0
+	+	27	0
+	+	39	0
+	+	22	17
+	+	25	3
+	+	21	1
+	+	23	2
+	+	23	0
+	+	24	0
+	+	23	19
+	+	24	0
+	+	21	14
+	+	22	15
+
+> D:\TP\BattleScript\BattleCommon.lua
+	*	1481797187	0
+	"	22	0
+
+> D:\TP\BattleScript\AI_Party_0000.lua
+	*	1481796907	0
+	"	1	0
+
+> D:\TP\BattleScript\AI_Group_0000.lua
+	*	1481796223	0
+	"	1	0
+
+> D:\EM\Local\[unite] - default
+	*	1481793180	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	2	0
+
+> D:\EM\Program\Library\Application\Application\Component\Contents\Asset\ScriptAssetComponent.h
+	*	1481773470	0
+	"	28	0
+
+> C:\Programs\afxw64\Script\template.h
+	*	1481772829	0
+	"	3	0
+
+> D:\EM\update_svn_program.bat
+	*	1481695369	0
+	"	7	9
+
+> D:\EM\update_svn_tool.bat
+	*	1481695366	0
+	"	7	9
+
+> D:\EM\update_svn_document.bat
+	*	1481695350	0
+	"	7	9
+
+> D:\EM\Local\_vimrc
+	*	1481599501	0
+	"	171	0
+
+> D:\EM\Program\Source\Game\Scene\Battle\BattleManager.h
+	*	1481528940	0
+	"	1	83

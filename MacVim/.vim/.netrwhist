@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/sho-suzuki/Programs/EM/Programs/Source/Game/Component/Battle'
+let g:netrw_dirhist_2='/Users/sho-suzuki'
+let g:netrw_dirhist_3='/Volumes/IP Messenger 0.11.5/IPMessenger.app'
+let g:netrw_dirhist_4='/Volumes/Dfs/Personal/sho-suzuki'
